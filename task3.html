@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Overflow
+        </title>
+    </head>
+    <style>
+        p.text1{
+            white-space: nowrap;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        p.text2{
+            white-space: wrap;
+            border: 2px solid blueviolet;
+            overflow: visible;
+            text-overflow: initial;
+        }
+    </style>
+    <body>
+        <h1>This is an example</h1>
+        <p class="text1">this is an text overflow example</p>
+        <h2>this is an example</h2>
+        <p class="text2">this is an text 2 example</p>
+    </body>
+</html>

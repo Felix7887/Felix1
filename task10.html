@@ -1,0 +1,81 @@
+<html>
+    <body>
+        <h3><U>Largest number</U></h3>
+        <p id="demo1"></p>
+
+        <h3><U>Sum</U></h3>
+        <p id="demo2"></p>
+
+        <h3><U>pop</U></h3>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+
+        <h3><U>Length</U></h3>
+        <p id="demo5"></p>
+        
+        <h3><U>PUSH</U></h3>
+        <p id="demo6"></p>
+        <p id="demo7"></p>
+
+        <h3><U>Unshift</U></h3>
+        <p id="demo8"></p>
+
+        <h3><U>Shift</U></h3>
+        <p id="demo9"></p>
+
+        <h3><U>IndexOf</U></h3>
+        <p id="demo10"></p>
+
+        <h3><U>Splice</U></h3>
+        <p id="demo11"></p>
+
+        <h3><U>Join</U></h3>
+        <p id="demo12"></p> 
+    </body>
+    <script>
+        document.getElementById("demo1").innerHTML=Math.max(7,45,89,123,4);
+
+        let add=5;
+        const numbers=[10,30,50,70];
+        numbers.forEach(bright);
+        document.getElementById("demo2").innerHTML=add;
+        function bright(item){
+            add -=item;
+        }
+
+        const value=[30,50,70];
+        document.getElementById("demo3").innerHTML=value;
+        value.pop();
+        document.getElementById("demo4").innerHTML=value;
+
+        const tel=[120,50,100,80];
+        let size=tel.length;
+        document.getElementById("demo5").innerHTML=size;
+
+        const birds=["cuckoo","crow","eagle","parrot"];
+        document.getElementById("demo6").innerHTML=birds;
+        birds.push("peacock");
+        document.getElementById("demo7").innerHTML=birds;
+
+        const method=["one","two","three"];
+        method.unshift("five");
+        document.getElementById("demo8").innerHTML=method;
+
+        const name=["shagulesh","mani","pava"];
+        name.shift("dhanush");
+        document.getElementById("demo9").innerHTML=name;
+
+        const number=["css","html","java","bootstrap"];
+        let index=number.indexOf("java");
+        document.getElementById("demo10").innerHTML=index;
+
+        const order=["one","two","five"];
+        order.splice(2,0,"three","four");
+        document.getElementById("demo11").innerHTML=order;
+
+        const fruits=["jack","mango","grape"];
+        let text=fruits.join(" and ");
+        document.getElementById("demo12").innerHTML=text;
+
+    </script>
+</html>

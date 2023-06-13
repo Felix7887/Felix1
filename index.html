@@ -1,32 +1,40 @@
 <html>
 
-<head><B>A test table with merged cells</B></head>
-<title>TABLE</title>
+<head>
+    <title>COURSES</title>
+</head>
 
 <body>
-    <table border="1">
-        <tr>
-            <th rowspan="2" colspan="2"></th>
-            <th colspan="3">Average</th>
-            <th rowspan="2">redeyes</th>
-        </tr>
-        <tr>
-            <th> height </th>
-            <th colspan="2">weight</th>
-        </tr>
-        <tr>
-            <td colspan="2"> MALES</td>
-            <td colspan="1"> 1.9</td>
-            <td colspan="2">0.003</td>
-            <td colspan="2">40%</td>
-        </tr>
-        <tr>
-            <td colspan="2">FEMALES</td>
-            <td colspan="1">1.7</td>
-            <td colspan="2">0.002</td>
-            <td colspan="1">43%</td>
-        </tr>
+    <form method="post">
+        <label>ENTER YOUR NAME</label><br>
+        <input type="text" placeholder="ENTER YOUR NAME" required><br>
+        <label>ENTER YOUR REGISTER NO.</label><br>
+        <input type="number"><br>
+        <label>ENTER YOUR DATE OF BIRTH</label><br>
+        <input type="date"><br>
+        <label>ENTER YOUR FATHER NAME</label><br>
+        <input type="text"><br>
+        <label>ENTER YOUR MOTHER NAME</label><br>
+        <input type="text"><br>
+        <label>ENTER YOUR PHONE NO.</label><br>
+        <input type="number" pattern="9-10"><br>
+        <label>ENTER YOUR COURSE</label><br>
+        <select>
+        <option>--COURSES--</option>
+        <option>CSE</option>
+        <option>EEE</option>
+        <option>CIVIL</option>
+        <option>MECHANICAL</option>
+        <option>ECE</option>
+        <option>SUGAR</option>
+        </select><br><br>
+        <label>GENDER</label><br>
+        <input type="checkbox">MALE<br>
+        <input type="checkbox">FEMALE<br><br>
+        <label>ENTER YOUR ADDRESS</label><br>
+        <textarea></textarea><br>
+        <button type="submit">submit</button>
+    </form>
 </body>
-</table>
 
 </html>

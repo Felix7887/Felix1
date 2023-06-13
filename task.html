@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            FLEXBOX
+        </title>
+    </head>
+    <h1>
+        Flexbox
+    </h1>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: rgb(11, 248, 169);
+        }
+        .flex-container>div{
+            padding: 30px;
+            background-color: rgb(116, 124, 131);
+            margin: 30px;
+                       
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            align-items: stretch; 
+        }       
+        .a1{
+            color:aqua  ;
+        }
+        .a2{
+            align-items: flex-end;
+        }
+        .a3{
+           align-items: baseline;
+        }
+    </style>
+    <body>
+        <div class="flex-container">
+            <div class="a1">This is an example</div>
+            <div class="a2">The computer language is java,phython,c++,bootstrap,linux...etc.</div>
+            <div class="a3">this is a css flexbox</div>
+        </div>
+    </body>
+</html>

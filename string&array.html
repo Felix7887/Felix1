@@ -1,0 +1,78 @@
+<html>
+
+<body>
+    <h2><U>STRING METHOD</U></h2>
+    <h3><U>The String length is:</U></h3>
+
+    <p id="demo1"></p>
+    <h3><U>The text slice of government is:</U></h3>
+    <p id="demo2"></p>
+
+    <h3><U>Lowercase to Uppercase:</U></h3>
+    <p id="demo3"></p>
+
+    <h3><U>Uppercase to Lowercase:</U></h3>
+    <p id="demo4"></p>
+
+    <h3><U>The text of concat is:</U></h3>
+    <p id="demo5"></p>
+    <h2><U>ARRAY METHOD</U></h2>
+
+
+    <h3><U>The length of array size is:</U></h3>
+    <p id="arrayexample1"></p>
+
+    <h3><U>The array of convserting to string:</U></h3><p id="arrayexample2"></p>
+
+    <h3><U>The array of replacing to string:</U></h3><p id="arrayexample3"></p>
+
+    <h3><U>The array of push:</U></h3><p id="arrayexample4"></p>
+
+    <h3><U>The array of pop:</U></h3><p id="arrayexample5"></p>
+
+    <script>
+
+        let text = "government";
+        document.getElementById("demo1").innerHTML = text.length;
+
+        let text2 = "government";
+        document.getElementById("demo2").innerHTML = text2.slice(4);
+
+        let text3 = "government";
+        document.getElementById("demo3").innerHTML = text3.toUpperCase();
+
+        let text4 = "HILIFE";
+        document.getElementById("demo4").innerHTML = text4.toLowerCase();
+
+        let text5 = "hi" + "life ";
+        document.getElementById("demo5").innerHTML = text5.concat();
+
+    </script>
+
+
+    <script>
+        const tel = ["cricket", "baseball"];
+        let size = tel.length;
+        document.getElementById("arrayexample1").innerHTML = size;
+
+        const sports2 = ["base", "ball"];
+        document.getElementById("arrayexample3").innerHTML = sports2.toString();
+
+        const sports3 = ["cricket", "baseball"];
+        document.getElementById("arrayexample2").innerHTML = sports3;
+
+        const sports4 = ["cricket", "kabadi", "football"];
+        sports4.push("baseball");
+        document.getElementById("arrayexample4").innerHTML = sports4;
+
+        const fruits = ["pineapple", "mango"];
+        document.getElementById("arrayexample5").innerHTML = fruits.pop();
+
+    </script>
+    <h2>OBJECT</h2>
+    <script>
+        
+    </script>
+</body>
+
+</html>
